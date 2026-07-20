@@ -32,6 +32,42 @@
 # # create the card based on that.
 # # print out the card..
 
+# name = input("what is your name?")
+# favorite_number = input("what is your favorite number?")
+
+# card_width = 46
+# inside_width = card_width - 2
+
+# message1 = f"Afrjigi, {name}!"
+# message2 = f"Your favorite number is {favorite_number}"
+
+# formatted_message1 = message1.ljust(inside_width - 2)
+# formatted_message2 = message2.ljust(inside_width - 2)
+
+# border = "*" * card_width
+
+# print(border)
+# print(f"*{formatted_message1}*")
+# print(f"*{formatted_message2}*")
+# print(border)
+
+# from pyexpat.errors import messages
+
+
+# name = input("what is your name?")
+# favorite_number = input("what is your favorite number?")
+
+# card_width = 46
+# inside_width = card_width - 2
+
+# message = [f"Afrjigi, {name}!", f"Your favorite number is {favorite_number}"]
+
+# border = "*" * card_width
+
+# print(border)
+# for message in messages:
+#     print(f"*  {message.ljust(inside_width - 2)}*")
+# print(border)
 
 #-----------------------------Problem set 2----------------------------------------
 # ## Problem 2 — Sequence Explorer
@@ -68,30 +104,30 @@
 # Write a program that helps a driver estimate the fuel cost for a road trip.
 
 # Ask the user for:
-def road_trip_fuel_calculator():
-    # 1. The **distance** of the trip in miles
-    distance = float(input("Enter the distance of the trip in miles: "))    
-    # 2. Their car's **fuel efficiency** in miles per gallon (MPG)
-    fuel_efficiency = float(input("Enter your car's fuel efficiency in MPG: "))
-    # 3. The current **price of gas** per gallon in dollars
-    gas_price = float(input("Enter the current price of gas per gallon in dollars: "))
+# def road_trip_fuel_calculator():
+#     # 1. The **distance** of the trip in miles
+#     distance = float(input("Enter the distance of the trip in miles: "))    
+#     # 2. Their car's **fuel efficiency** in miles per gallon (MPG)
+#     fuel_efficiency = float(input("Enter your car's fuel efficiency in MPG: "))
+#     # 3. The current **price of gas** per gallon in dollars
+#     gas_price = float(input("Enter the current price of gas per gallon in dollars: "))
 
-    # Calculate and print:
-    # - The number of gallons needed (rounded to 2 decimal places)
-    gallons_needed = round(distance / fuel_efficiency, 2)   
-    # - The total fuel cost (rounded to 2 decimal places)
-    total_fuel_cost = round(gallons_needed * gas_price, 2)
+#     # Calculate and print:
+#     # - The number of gallons needed (rounded to 2 decimal places)
+#     gallons_needed = round(distance / fuel_efficiency, 2)   
+#     # - The total fuel cost (rounded to 2 decimal places)
+#     total_fuel_cost = round(gallons_needed * gas_price, 2)
 
-    print()
-    print("--- Road Trip Fuel Estimate ---")
-    print(f"Distance:        {distance} miles")
-    print(f"Fuel efficiency: {fuel_efficiency} MPG")
-    print(f"Gas price:       ${gas_price} / gallon")
-    print()
-    print(f"Gallons needed:  {gallons_needed:.2f}")
-    print(f"Total fuel cost: ${total_fuel_cost:.2f}")
+#     print()
+#     print("--- Road Trip Fuel Estimate ---")
+#     print(f"Distance:        {distance} miles")
+#     print(f"Fuel efficiency: {fuel_efficiency} MPG")
+#     print(f"Gas price:       ${gas_price} / gallon")
+#     print()
+#     print(f"Gallons needed:  {gallons_needed:.2f}")
+#     print(f"Total fuel cost: ${total_fuel_cost:.2f}")
 
-road_trip_fuel_calculator()
+# road_trip_fuel_calculator()
 
 # **Example output:**
 # ```
