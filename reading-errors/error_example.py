@@ -3,3 +3,5 @@ def greet(name):
     print(message)
 
 greet("Alice")
+
+#--------------------------- Exercise 2: SyntaxError - Missing Punctuation ----------------
