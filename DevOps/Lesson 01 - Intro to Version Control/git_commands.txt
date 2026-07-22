@@ -1,0 +1,171 @@
+    1  wsl
+    2  wsl --list
+    3  exit
+    4  git clone https://github.com/shafe123/AI2C-IntroToLinux.git
+    5  exit
+    6  git clone https://github.com/shafe123/AI2C-IntroToLinux.git
+    7  exit
+    8  cd ~
+    9  git clone https://github.com/shafe123/AI2C-IntroToLinux.git
+   10  ls
+   11  cd AI2C-IntroToLinux/
+   12  ls
+   13  cd notes/
+   14  ls
+   15  cd ..
+   16  ls
+   17  cat file1.txt 
+   18  cat file2.txt more
+   19  more file2.txt 
+   20  cat file2.txt | less
+   21  less file2.txt 
+   22  cp file2.txt docs
+   23  cd docs/
+   24  ls
+   25  cd ..
+   26  mv file1.txt notes
+   27  cd notes/
+   28  ls
+   29  rename file1.txt file3
+   30  mv file1.txt file3
+   31  ls
+   32  touch newfile.txt
+   33  ls
+   34  rm newfile.txt 
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd scripts/
+   39  ls hello.sh 
+   40  ls -a hello.sh 
+   41  ls -la hello.sh 
+   42  chmod +x hello.sh 
+   43  ./hello.sh 
+   44  cd ..
+   45  ls
+   46  cd notes/
+   47  ls
+   48  cd ..
+   49  cd scripts/
+   50  ls
+   51  cd ..
+   52  ls
+   53  cd ~
+   54  ls
+   55  cd AI2C-IntroToLinux/
+   56  cd docs/
+   57  ls
+   58  cd ..
+   59  ls
+   60  cd notes/
+   61  LS
+   62  ls
+   63  cat note1.txt | grep Linux
+   64  cat note1.txt | grep Linux | wc 
+   65  cat note1.txt | grep -v "Linux"
+   66  cat note1.txt | grep -v "Linux" note1.txt 
+   67  grep -v "Linux" note1.txt 
+   68  cat note1.txt | grep -v Linux
+   69  cat note1.txt | grep -v Linux note1.txt
+   70  cat note1.txt | grep -r .txt
+   71  cd ..
+   72  ls
+   73  grep -r .txt
+   74  cd notes/
+   75  grep -r .txt
+   76  cd ..
+   77  ls
+   78  grep -r *.txt
+   79  grep -r .txt*
+   80  grep -r "*.txt"
+   81  grep --help
+   82  grep -r --include *.txt .
+   83  grep -r --include *.file
+   84  grep -r --include *file
+   85  ls
+   86  cat file2.txt | wc -l
+   87  cd docs/
+   88  ls
+   89  cat doc1.txt | wc
+   90  cd /
+   91  ls
+   92  ls -lp
+   93  ls -a
+   94  mkdir AI2C_Prep
+   95  sudo mkdir AI2C_Prep
+   96  ls
+   97  cd AI2C_Prep/
+   98  python
+   99  exit
+  100  sudo apt update
+  101  sudo apt install software-properties-common -y
+  102  sudo add-apt-repository ppa:deadsnakes/ppa -y
+  103  sudo apt update
+  104  python3 -m venv ai2c_venv
+  105  apt install python3.14-venv
+  106  sudo apt install python3.14-venv
+  107  sudo apt install python3.12-venv
+  108  python3 -m venv ai2c_venv
+  109  source ai2c/bin/activate
+  110  python3.12 -m ai2c_venv
+  111  python3 -m ai2c_venv
+  112  ls
+  113  cd ai2c_venv/
+  114  cd ..
+  115  pwd
+  116  source ai2c_venv/bin/activate
+  117  Deactivate
+  118  deactivate
+  119  sudo apt update
+  120  sudo apt install software-properties-common -y
+  121  sudo add-apt-repository ppa:deadsnakes/ppa -y
+  122  sudo apt update
+  123  git --version
+  124  mkdir git_exercice
+  125  ls -la
+  126  git status
+  127  ls
+  128  git add git_exercice/
+  129  cd git_exercice/
+  130  ls
+  131  touch ai2c.txt
+  132  ls
+  133  echo "My first git exercice" > ai2c.txt 
+  134  ls
+  135  git status
+  136  git init
+  137  gitb status
+  138  git status
+  139  git add ai2c.txt 
+  140  cat ai2c.txt 
+  141  git commit -m "change to git_exercice"
+  142  git config --global user.name "Diarrassouba"
+  143  git commit -m "change to git_exercice"
+  144  git status
+  145  git log
+  146  echo "Git is very useful for version control" > ai2c.txt 
+  147  git status
+  148  git commit
+  149  git add ai2c.txt 
+  150  git staus
+  151  git status
+  152  git log
+  153  git commit -m "change again to git_excercice"
+  154  git log
+  155  git diff
+  156  cat ai2c.txt 
+  157  git status
+  158  touch cpu.txt
+  159  touch gpu.txt
+  160  git status
+  161  git add "cpu.txt" 
+  162  git status
+  163  git commit -m "change to git_exercice"
+  164  git status
+  165  git log --oneline
+  166  git show 15206ab 
+  167  git show
+  168  git log -p
+  169  history
+  170  touch git_commands.txt
+  171  history >> git_commands.txt 
