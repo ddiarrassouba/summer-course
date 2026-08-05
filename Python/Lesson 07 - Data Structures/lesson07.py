@@ -71,38 +71,38 @@
 # Print each result clearly
 
 # Starter Code:
-authorized = {"Smith", "Johnson", "Williams", "Brown", "Davis"} 
+# authorized = {"Smith", "Johnson", "Williams", "Brown", "Davis"} 
 
-arrived = {"Smith", "Davis", "Williams", "Rodriguez"}
+# arrived = {"Smith", "Davis", "Williams", "Rodriguez"}
 
-# Find who can enter
+# # Find who can enter
 
-authorized_and_arrived = authorized & arrived
+# authorized_and_arrived = authorized & arrived
 
-# Find who must be turned away
+# # Find who must be turned away
 
-not_authorized = arrived - authorized
+# not_authorized = arrived - authorized
 
-# Find who is absent
+# # Find who is absent
 
-absent = authorized - arrived
+# absent = authorized - arrived
 
-# Create function
+# # Create function
 
-def check_gate(authorized, arrived):
-    authorized_and_arrived = authorized & arrived
-    not_authorized = arrived - authorized
-    absent = authorized - arrived
+# def check_gate(authorized, arrived):
+#     authorized_and_arrived = authorized & arrived
+#     not_authorized = arrived - authorized
+#     absent = authorized - arrived
 
-    return authorized_and_arrived, not_authorized, absent
+#     return authorized_and_arrived, not_authorized, absent
 
-# Call the function
+# # Call the function
 
-let_in, turn_away, absent = check_gate(authorized, arrived)
+# let_in, turn_away, absent = check_gate(authorized, arrived)
 
-# Print answers
+# # Print answers
 
-print("Let in:", let_in)
-print("Turn away:", turn_away)
-print("Absent:", absent)
+# print("Let in:", let_in)
+# print("Turn away:", turn_away)
+# print("Absent:", absent)
 

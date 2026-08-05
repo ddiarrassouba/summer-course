@@ -93,3 +93,6 @@ while True:
 # Hints:  
 # Use isinstance(item, int) to check types
 # Build the valid list as you go
+
+items = [10, -5, 20, 'hello', 5.2, 15, None, 30]
+valid_number = []
